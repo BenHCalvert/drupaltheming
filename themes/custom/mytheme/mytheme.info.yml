@@ -1,0 +1,5 @@
+name: my theme
+type: theme
+description: my first theme
+core: 8.x
+base line: false
