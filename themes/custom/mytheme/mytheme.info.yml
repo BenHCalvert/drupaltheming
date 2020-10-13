@@ -3,3 +3,18 @@ type: theme
 description: my first theme
 core: 8.x
 base line: false
+# logo for the theme itself on the appearance page
+screenshot: mytheme.png
+
+# Block Regions (order is important)
+regions:
+  header: Header
+  content: Content
+  sidebar_first: Sidebar first
+  footer: Footer
+  page_top: Page Top
+  page_bottom: Page Bottom
+
+libraries:
+  - mytheme/global-css
+
